@@ -12,6 +12,7 @@ for first_number in range(interval_start, interval_end + 1):
         if first_number + second_number == magic_number:
             print(f'Combination N:{combination_number} ({first_number} + {second_number} = {magic_number})')
             is_combination_found = True
+            break
             
     if is_combination_found:
         break
